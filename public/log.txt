@@ -1,0 +1,7 @@
+Crawler started
+PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/schmithd/fb/fbproject/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/schmithd/fb/fbproject/app/Facebook/ErrorHandler.php(13): Illuminate\Support\Facades\Facade::__callStatic('beginTransactio...', Array)
+#1 /home/schmithd/fb/fbproject/app/Facebook/crawler.php(66): App\Facebook\ErrorHandler->createError(3, 0, 'Error Test1')
+#2 {main}
+  thrown in /home/schmithd/fb/fbproject/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
