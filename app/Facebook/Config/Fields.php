@@ -46,7 +46,7 @@ class Fields extends FromArray {
                 "username",
                 "website",
                 "members", 
-                "is_unclaimed"
+                "is_unclaimed"                
             ]
         ];
 }
